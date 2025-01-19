@@ -3,7 +3,7 @@
  * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
 */
 
-public class Bola implements BangunRuang {
+public class Bola implements bangunRuang {
     private int diameter;
 
     public Bola(int diameter){

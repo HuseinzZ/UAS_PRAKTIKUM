@@ -3,7 +3,7 @@
  * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
 */
 
-public class Balok implements BangunRuang{
+public class Balok implements bangunRuang{
     private int panjang;
     private int lebar;
     private int tinggi;
