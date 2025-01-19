@@ -1,5 +1,14 @@
+/* Nama : Muhamad Ridwan Husaeni
+ * NIM  : 2250085010
+ * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
+*/
+
 public class Bola implements bangunRuang {
     private int diameter;
+
+    public Bola(int diameter){
+        this.diameter = diameter;
+    }
     
     public int getDiameter() {
         return diameter;

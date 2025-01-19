@@ -1,3 +1,8 @@
+/* Nama : Muhamad Ridwan Husaeni
+ * NIM  : 2250085010
+ * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
+*/
+
 public class Balok implements bangunRuang{
     private int panjang;
     private int lebar;
