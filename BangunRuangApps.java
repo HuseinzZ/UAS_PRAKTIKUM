@@ -3,7 +3,7 @@
  * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
 */
 
-public class Main {
+public class BangunRuangApps {
     public static void main(String[] args) {
         Balok balok = new Balok(10, 5, 4);
         Bola bola = new Bola(9);
