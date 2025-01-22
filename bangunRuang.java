@@ -3,7 +3,7 @@
  * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
 */
 
-public interface bangunRuang{
+public interface BangunRuang{
     public float hitungLuas();
     public float hitungVolume();
 }

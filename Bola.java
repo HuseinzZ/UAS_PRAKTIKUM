@@ -3,7 +3,7 @@
  * UAS PRAKTIKUM IMPLEMENTASI PERANGKAT LUNAK
 */
 
-public class Bola implements bangunRuang {
+public class Bola implements BangunRuang {
     private int diameter;
 
     public Bola(int diameter){
@@ -18,11 +18,13 @@ public class Bola implements bangunRuang {
         this.diameter = diameter;
     }
 
+    @Override
     public float hitungLuas() {
         float jariJari = diameter / 2.0f;
         return 4 * (float) (Math.PI * jariJari * jariJari);
     }
 
+    @Override
     public float hitungVolume() {
         float jariJari = diameter / 2.0f;
         return 4.0f / 3.0f * (float) ((Math.PI * jariJari * jariJari * jariJari) / 6);
